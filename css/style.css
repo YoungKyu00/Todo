@@ -1,0 +1,34 @@
+html,
+body{
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+}
+.lists{
+    display: flex;
+    background-color: tan;
+}
+.list{
+    display: flex;
+    text-align: center;
+    margin : 10px;
+    background-color: yellow;
+}
+
+.list__add{
+    background-color: tomato;
+}
+.cards{
+    margin: 5px;
+    background-color: brown;
+}
+
+.card__name{
+    margin: 2px;
+    background-color: aqua;
+}
+.card__add{
+    background-color: teal;
+}

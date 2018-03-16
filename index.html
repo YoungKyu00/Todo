@@ -1,10 +1,41 @@
 <html>
-     <body>
-         <div class="welcome"></div>
-         <div class="welcome"></div>
-         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-         <script type="text/javascript">
-                 $('.welcome').html('hello world! coding everybody!').css('background-color','yellow');
-         </script>
-     </body>
- </html>
+<header>
+    <link rel="stylesheet" href="css/style.css">
+</header>
+
+<body>
+
+    <header class="header">
+        <h1 class="header__name">TODO LIST</h1>
+    </header>
+    <div class="lists">
+        <li class="list">
+            <div class="list__name">오늘 공부
+                <div class="cards">
+                    <div class="card__name">
+                        웹 스프링 프로젝트
+                    </div>
+                    <div class="card__name">
+                        웹 스프링 프로젝트
+                    </div>
+
+                    <div class="card card__add">add a card...</div>
+                </div>
+            </div>
+            <li class="list">
+                <div class="list__name">내일 공부
+                    <div class="cards">
+                        <div class="card__name">
+                            웹 스프링 프로젝트
+                        </div>
+
+                        <div class="card card__add">add a card...</div>
+                    </div>
+                </div>
+            </li>
+            <li class="list list__add">add a list...</li>
+    </div>
+
+</body>
+
+</html>
