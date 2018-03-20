@@ -1,5 +1,7 @@
 <html>
 <header>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </header>
 
@@ -10,32 +12,51 @@
     </header>
     <div class="lists">
         <li class="list">
-            <div class="list__name">오늘 공부
-                <div class="cards">
-                    <div class="card__name">
-                        웹 스프링 프로젝트
-                    </div>
-                    <div class="card__name">
-                        웹 스프링 프로젝트
-                    </div>
-
-                    <div class="card card__add">add a card...</div>
+            <div class="list__name">
+                <button class="list__name-btn">오늘 할 공부</button>
+                <button class="list__modify-btn">...</button>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <button class="card__name-btn">스프링 웹 프로젝트</button>
+                    <button class="card__edit-btn">변경</button>
+                </div>
+                <div class="card">
+                    <button class="card__name-btn">스프링 웹 프로젝트</button>
+                    <button class="card__edit-btn">변경</button>
                 </div>
             </div>
-            <li class="list">
-                <div class="list__name">내일 공부
-                    <div class="cards">
-                        <div class="card__name">
-                            웹 스프링 프로젝트
-                        </div>
-
-                        <div class="card card__add">add a card...</div>
-                    </div>
+            <div class="card__add">
+                    <button class="card__add-btn">add a card...</button>
                 </div>
-            </li>
-            <li class="list list__add">add a list...</li>
-    </div>
+        </li>
+        <li class="list">
+            <div class="list__name">
+                <button class="list__name-btn">오늘 할 공부</button>
+                <button class="list__modify-btn">...</button>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <button class="card__name-btn">스프링 웹 프로젝트</button>
+                    <button class="card__edit-btn">변경ggg</button>
+                </div>
+            </div>
+            <div class="card__add">
+                    <button class="card__add-btn">add a card...</button>
+                </div>
+        </li>
+        <li class="list">
+            <button class="list__add">add a List...</button>
+        </li>>
 
+
+    </div>
+    <script>
+            // $(document).click(function () {
+            //     $(".card__add-btn").append('<div class="card__add"> <button class="card__add-btn">add a card...</button></div>')
+            // });
+
+    </script>
 </body>
 
 </html>

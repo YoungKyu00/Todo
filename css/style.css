@@ -1,34 +1,67 @@
 html,
 body{
     margin: 0;
+    font-size: 0px;
 }
 
 .header{
     text-align: center;
+    font-size: 30px;
+    min-width: 350px;
 }
 .lists{
     display: flex;
     background-color: tan;
 }
 .list{
-    display: flex;
+    display: inline-block;
+    flex-direction: column;
     text-align: center;
     margin : 10px;
     background-color: yellow;
+    min-width: 250px;
 }
+.list__name{}
+
+.list__name-btn{
+    width: 90%;
+}
+
+.list__modify-btn{
+    width: 10%;
+
+}
+
 
 .list__add{
     background-color: tomato;
 }
 .cards{
-    margin: 5px;
+    display: inline-block;
     background-color: brown;
+    width:100%;
+}
+.card{
+    display: flex;
+    width: 100%;
 }
 
-.card__name{
+.card__name-btn{
     margin: 2px;
     background-color: aqua;
+    width: 100%;
+    z-index: 1;
+    position: relative;
 }
-.card__add{
+.card__edit-btn{
+    width: 30px;
+    height: 15px;
+    z-index: 2;
+    position: absolute;
+    
+}
+.card__add-btn{
+    padding: 0px;
     background-color: teal;
+    width: 100%;
 }
